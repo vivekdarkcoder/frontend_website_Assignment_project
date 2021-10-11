@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  font-size: 30px;
+}
+
+#navbar {
+  position: fixed;
+}
+
+.navbar-elm {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+  background-color: #ffffff;
+  height: 96vh;
+  overflow: auto;
+  color: #1a1a1a;
+  transition: border-radius 0.5s ease;
+  display: block;
+}
+
+.navbar-elm:hover {
+  border-radius: 40px;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px 16px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+.navbar-header {
+  text-align: center;
+}
+
+#main-doc {
+  margin: 0px;
+  margin-left: 320px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-elm {
+    position: fixed;
+    width: 250px;
+  }
+  #main-doc {
+    margin-left: 260px;
+  }
+}

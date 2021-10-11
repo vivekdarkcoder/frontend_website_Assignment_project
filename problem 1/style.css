@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  cursor: pointer;
+}
+#navbar {
+  padding-right: 50px;
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+#navbar-brand {
+  font-size: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#nav-links {
+  color: rgb(249, 251, 253);
+}
+#nav-links:hover {
+    transform: scaleY(1.1);
+  text-decoration: underline 1px rgb(13, 134, 214);
+}
+#welcome-box {
+  height: 60vh;
+  padding: 140px;
+}
+.name {
+  margin-top: 50px;
+  font-size: 2.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about_me {
+  color: rgb(247, 119, 119);
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+img {
+  height: 300px !important;
+  width: 300px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 0.5rem 1rem;
+}
+
+.projects {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+#btn-info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(253, 252, 252);
+    border: none;
+    margin-top: 20px;
+}
+#btn-info:hover{
+    opacity: 0.7;
+}
+div{
+    border: none !important;
+}
+footer{
+    padding-top: 80px;
+    word-spacing: 10px;
+    height: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#contact_section{
+  font-family:sans-serif;
+}
+i{
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+i:hover{
+    color: aqua !important;
+    transform: scale(1.1);
+}
